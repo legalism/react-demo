@@ -21,9 +21,8 @@ function run() {
           count: state.count + action.payload.count
         };
       default:
-        break;
+        return state;
     }
-    return state;
   };
 
   const todos = (state = {}) => state;
@@ -52,12 +51,14 @@ function run() {
 
   plusOne = bindActionCreators(plusOne, store.dispatch);
 
+  // 订阅
   store.subscribe(() => console.log(store.getState()));
   // store.dispatch(plusOne());
-  plusOne();
-  store.dispatch(minusOne());
-  store.dispatch(customCount(5));
+  // plusOne();
+  // store.dispatch(minusOne());
+  // store.dispatch(customCount(5));
 }
+
 export default () => (
   <div>
     <button onClick={run}>Run</button>

@@ -25,7 +25,6 @@ const store = createStore(counter);
 
 // Action creator
 function plusOne() {
-  // action
   return { type: "PLUS_ONE" };
 }
 

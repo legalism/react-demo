@@ -12,7 +12,7 @@ import SnapshotSample from "./c04/SnapshotSample";
 import DomDiff from "./c05/DomDiff";
 import {AdvancedTabSelectorSample} from "./c06/AdvancedTabSelector";
 import LocaleSample from "./c07/LocaleSample";
-/*import PureRedux from "./c11/PureRedux";
+import PureRedux from "./c11/PureRedux";
 import Counter from "./c12/Counter";
 import AsyncAction from "./c13/AsyncAction";
 import ReduxMiddleware from "./c13/ReduxMiddleware";
@@ -20,7 +20,7 @@ import OrgActions from "./c14/OrgActions";
 import RouterSample from "./c16/RouterSample";
 import RouterParams from "./c17/RouterParams";
 import NestedRoute from "./c17/NestedRoute";
-import FormSubmit from "./c29/FormSubmit";
+/*import FormSubmit from "./c29/FormSubmit";
 import FormSubmitAntd from "./c29/FormSubmitAntd";
 import DynamicForm from "./c30/DynamicForm";
 import ListSample from "./c31/App";
@@ -52,7 +52,7 @@ const routeMap = {
   "dom-diff": DomDiff,
   "adv-tab-selector": AdvancedTabSelectorSample,
 "locale-sample": LocaleSample,
-  /*"pure-redux": PureRedux,
+"pure-redux": PureRedux,
 counter: Counter,
 "async-action": AsyncAction,
 "redux-middleware": ReduxMiddleware,
@@ -60,7 +60,7 @@ counter: Counter,
 "router-sample": RouterSample,
 "router-params": RouterParams,
 "nested-route": NestedRoute,
-"form-submit": FormSubmit,
+  /*"form-submit": FormSubmit,
 "form-submit-antd": FormSubmitAntd,
 "dynamic-form": DynamicForm,
 "list-page": ListSample,
