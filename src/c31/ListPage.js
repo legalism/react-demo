@@ -101,9 +101,16 @@ function mapDispatchToProps(dispatch) {
   return bindActionCreators({ fetchList }, dispatch);
 }
 
+/*
 export default withRouter(
   connect(
     mapStateToProps,
     mapDispatchToProps,
   )(ListPage),
 );
+*/
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(ListPage);

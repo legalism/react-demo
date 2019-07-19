@@ -1,0 +1,14 @@
+.layout{
+  width: 1000px;
+  height: 800px;
+  color: #3388ff;
+  background-color: #2175bc;
+  .head{
+    border: 2px #ee55a1 dashed;
+    width: 200px;
+    height: 200px;
+    background-size: 100% 100%;
+    background-color: chartreuse;
+    margin-top: 20px;
+  }
+}
