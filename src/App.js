@@ -36,6 +36,8 @@ import ReselectSample from "./c43/ReselectSample";
 import Suspense from "./c44/Suspense";
 */
 import Layout from "./c45/Layout"
+import Selector from './c46/Selector'
+import Text from './c47/Text'
 
 
 const styles = {
@@ -77,6 +79,8 @@ layout2: Layout2,
 suspense: Suspense,*/
   
   "layout": Layout,
+  "selector": Selector,
+  "text":Text,
   
 };
 
@@ -123,7 +127,7 @@ export default class App extends React.PureComponent {
             </li>
           ))}
         </ul>
-        <div style={{padding: "10px 0",color:"#1ae4ff",width:400}}>
+        <div style={{padding: "10px 0"}}>
           <CurrentPage/>
         </div>
       </div>

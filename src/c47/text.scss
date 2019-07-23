@@ -1,0 +1,36 @@
+.text {
+  .font {
+    background-color: black;
+    color: blueviolet;
+    font: 20px /2 BlinkMacSystemFont;
+  }
+  .font-other {
+    background-color: #d215ff;
+    .p1 {
+      text-align: left;
+      text-indent: 2em;
+    }
+    .p2 {
+      vertical-align: sub;
+    }
+    .p3 {
+      white-space: pre-wrap;
+    }
+    .p4 {
+      text-decoration: underline;
+      word-break: normal;
+      word-wrap: break-word;
+    }
+    .p5 {
+      text-shadow: 1px 2px 3px #a2d5ff;
+    }
+    .p6 {
+      width: 100px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      cursor: help;
+    }
+  }
+
+}

@@ -1,0 +1,88 @@
+.selector {
+  //标签选择器
+  p {
+    color: red
+  }
+
+  //通配符选择器
+  //*{color: red}
+
+  //类选择器
+  .head {
+    width: 100px;
+    height: 100px;
+    color: #3388ff;
+    background-color: #ee55a1;
+    position: center;
+  }
+
+  //id选择器
+  #banner {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: #ff0000 dashed;
+    background-color: black;
+    color: #efff70;
+  }
+
+  //属性选择器
+  [disabled] {
+    background-color: red;
+  }
+
+  [type=button] {
+    background-color: blueviolet;
+  }
+
+  [class~=sport] {
+    color: brown;
+  }
+
+  //伪类选择器
+  a:link {
+    color: gray;
+  }
+
+  a:visited {
+    color: red;
+  }
+
+  a:hover {
+    color: #3388ff;
+  }
+
+  a:active {
+    color: #efff70;
+  }
+
+  //伪元素选择器
+  ::selection {
+    color: #1ae4ff;
+    background-color: black;
+  }
+
+  //组合选择器:
+  //后代选择器
+  .content h2 {
+    color: brown;
+  }
+  //子选择器
+  .content {
+    > h2 {
+      color: brown;
+    }
+  }
+  //兄弟选择器
+  .brother {
+    h2 ~ span {
+      color: #ee55a1;
+    }
+  }
+
+  //继承
+  .inherit {
+    color: #1ae4ff;
+  }
+}
